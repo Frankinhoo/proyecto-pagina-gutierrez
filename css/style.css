@@ -64,7 +64,7 @@ header span{
     max-width: 1900px;
     margin: auto;
     height: 900px;
-    background-image: url('../assets/Images/imagen-inicio.jpg');
+    background-image: url('../assets/images/imagen-inicio.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -74,7 +74,7 @@ header span{
     max-width: 1900px;
     margin: auto;
     height: 900px;
-    background-image: url('../assets/Images/pasteleria-dulce.jpg');
+    background-image: url('../assets/images/pasteleria-dulce.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
