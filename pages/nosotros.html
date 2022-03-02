@@ -23,20 +23,33 @@
 </head>
 <body>
     <header>
-        <nav class="header__nav header">
-            <div class="header__logo">
-                <a href="../index.html"><img src="../assets/icons/icono.png" alt="Logo Taza"></a>
+        <nav class="navbar navbar-expand-md navbar-dark header__nav header">
+            <div>
+                <a href="../index.html"><img src="../assets/icons/icono.png" class="header__logo" alt="Logo Taza"></a>
             </div>
-            <div class="enlaces">
-                <ul>
-                    <li> <a href="../index.html">Inicio</a> </li>
-                    <li> <a href="./nosotros.html">Nosotros</a> </li>
-                    <li> <a href="./productos.html">Productos</a> </li>
-                    <li> <a href="./contacto.html">Contacto</a> </li>
-                    <li> <a href="./ubicacion.html">Ubicacion</a> </li>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon container-md ms-auto"></span>
+            </button>
+            <div class="collapse navbar-collapse enlaces" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link text-white a">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./nosotros.html" class="nav-link text-white">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./productos.html" class="nav-link text-white">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contacto.html" class="nav-link text-white">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./ubicacion.html" class="nav-link text-white">Ubicacion</a>
+                    </li>
                 </ul>
             </div>
-            <span>☰</span>
         </nav>
     </header>
     <main class="main--a">
