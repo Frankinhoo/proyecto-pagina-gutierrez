@@ -1,0 +1,188 @@
+
+@media (max-width: 1050px) {
+
+    /* nosotros */
+    .main__div{
+        max-width: 900px;
+    }
+
+    /* productos */
+    .section__img{
+        width: 400px ;
+    }
+    .section__img--a{
+        width: 400px;
+    }
+    .section__p{
+        font-size: 190%;
+    }
+    .section__p--a{
+        font-size: 190%;
+    }
+}
+
+@media (max-width: 820px){
+
+    /* nosotros */
+        .main__div{
+        max-width: 700px;
+    }
+    /* productos */
+    .main__div--productos{
+        grid-template-areas:
+        "texto"
+        "imagen"
+        "texto1"
+        "imagen1";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr) ;
+}
+
+@media (max-width: 768px){
+    .enlaces li {
+        padding: 10px 50px;
+    }
+
+    .enlaces a{
+        border-bottom: 1px solid #a32746;;
+    }
+
+}
+
+@media (max-width: 690px) {
+
+    header span{
+        display: inline-block;
+        color: #ffffff;
+        font-size: 25px;
+    } 
+
+/* nosotros */
+    .main__div {
+    max-width: 600px;
+    }
+    
+    .main__p--b{
+        font-size: 25px;
+    }
+    /* nosotros */
+
+    /* ubicacion */
+    .div__iframe{
+        max-width: 500px;
+    }
+
+    .iframe{
+        max-width: 420px;
+    }
+
+    .footer__section{
+        flex-direction: column;
+    }
+
+
+    .footer__logo{
+        margin: auto;
+    }
+
+    .footer__p{
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .footer__div{
+        margin: auto;
+        padding-left: 0px;
+    }
+
+    .main__div--productos{
+        grid-template-areas:
+        "texto"
+        "imagen"
+        "texto1"
+        "imagen1";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr) ;
+    }
+}
+
+@media (max-width: 480px) {
+    /* nosotros */
+    .main__div {
+    max-width: 400px;
+    }
+
+    .main__p--b{
+        font-size: 20px;
+    }
+    /* nosotros */
+
+    /* contacto */
+    .section__contacto{
+        max-width: 350px;
+    }
+    /* ubicacion */
+    .div__iframe{
+        max-width: 350px;
+    }
+
+    .iframe{
+        max-width: 270px;
+    }
+}   
+
+@media (max-width: 320px){
+    /* inicio */
+    .main__section{
+        max-width: 300px;
+        margin: auto;
+    }
+    /* inicio */
+
+    /* nosotros */
+    .main__div {
+    max-width: 300px;
+    }
+
+    .main__p--b{
+        font-size: 17px;
+    }
+    /* nosotros */
+
+    /* productos */
+    .section__img{
+        width: 300px ;
+    }
+    .section__img--a{
+        width: 300px;
+    }
+    .section__p{
+        font-size: 150%;
+    }
+    .section__p--a{
+        font-size: 150%;
+    }
+    /* productos */
+
+    /* contacto */
+    .section__contacto{
+        max-width: 240px;
+        width: auto;
+    }
+    /* contacto */
+
+    /* ubicacion */
+    .div__iframe{
+        max-width: 240px;
+    }
+
+    .iframe{
+        max-width: 160px;
+    }
+
+    .footer__div{
+        width: auto;
+    }
+}
+}

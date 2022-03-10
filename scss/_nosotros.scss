@@ -1,0 +1,45 @@
+.main--a{
+    width: 100%;
+    max-width: 1900px;
+    margin: auto;
+    height: 900px;
+    background-image: url('../assets/images/imagen-inicio.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    .main__section{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .main__section p{
+    line-height: 1.8;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    }
+
+    .main__h3{
+    font-size: 4em ;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+    }
+
+    .main__div{
+    max-width: 1000px;
+    border: 2px solid #990e31;
+    }
+
+    .main__p--b{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    max-width : 1000px;
+    margin-top: 30px ;
+    }
+}

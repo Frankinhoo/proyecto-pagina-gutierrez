@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    max-width: 1900px;
+    margin: auto;
+    background-color: #990e31;
+    color: #ffffff;
+    
+    .header{
+    margin: auto;
+    overflow: hidden;
+    max-width: 1600px;
+    padding: 60px 0px;
+    }
+    .header__nav{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+    .header__logo{
+    height: 100px;
+    margin: 20px;
+    }
+
+    img{
+        .header__logo{
+            display: block;
+            height: 100%;
+        }
+    }
+
+    div{
+        .nav-item{
+            padding: 0px 30px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

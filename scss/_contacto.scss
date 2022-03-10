@@ -1,0 +1,70 @@
+.main__contacto{
+    max-width: 1900px;
+    margin: auto;
+    padding-bottom: 30px;
+    background-color: antiquewhite;
+
+    .main__h3--productos{
+    padding: 40px 0px;
+    font-size: 4em ;
+    text-align: center;
+    color: #990e31 ;
+    font-family: 'Lobster', cursive;
+    }
+
+    .section__contacto{
+        width: 500px;
+        background: #990e31;
+        padding: 30px;
+        margin: auto;
+        margin-bottom: 90px;
+        margin-top: 100px;
+        border-radius: 4px;
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff;
+        box-shadow: 7px 13px 37px #000;
+    }
+    
+    .section__contacto h4{
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .input{
+        width: 100%;
+        padding: 10px 0;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #c38c6e;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+    }
+    
+    .section__contacto textarea{
+        width: 100%;
+        /* padding: ; */
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #c38c6e;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        resize: none;
+    }
+    
+    .boton{
+        width: 100%;
+        background: #c38c6e;
+        border: none;
+        padding: 12px;
+        color: #ffffff;
+        margin: 16px 0;
+        font-size: 16px;
+        transition: transform 0.3s;
+    }
+    
+    .boton:hover{
+        transform: scale(1.1)
+    }
+
+}
