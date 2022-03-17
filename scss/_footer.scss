@@ -1,8 +1,7 @@
 footer{
+    @extend .container;
     background-color: #666666;
     width: 100%;
-    max-width: 1900px;
-    margin: auto;
 
     .footer__section{
         display: flex;
@@ -27,13 +26,10 @@ footer{
         font-family: 'Open Sans', sans-serif;
         max-width: 600px;
         padding-top: 15px;
-        padding-left: 20px;
     }
     
     .footer__div{
         width:  400px;
-        padding-left: 70px;
-        
     }
 
     .footer__h3{
@@ -61,17 +57,18 @@ footer{
         font-family: 'Open Sans', sans-serif;
     }
     
-    .footer__div--b{
-        background-color: #494949;
-        font-size: 15px;
-        padding: 45px 0;
-        color: #ffffff;
+    .maps{
         text-align: center;
-        font-family: 'Open Sans', sans-serif;
+        /* BORRAR DESPUES*/
     }
-
-    a:hover{
-        color: #c38c6e ;
+    
+    .footer__div--b{
+        background-color: map-get($estilos, fondo);
+        font-size:map-get($estilos,fuente);
+        padding:map-get($estilos,padding);
+        color:map-get($estilos,color);
+        text-align:map-get($estilos,texto);
+        font-family: 'Open Sans', sans-serif;
     }
 
 }

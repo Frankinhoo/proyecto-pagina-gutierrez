@@ -1,7 +1,6 @@
 .main--productos{
+    @extend .container;
     width: 100%;
-    max-width: 1900px;
-    margin: auto;
 
     .main__h3--productos{
         padding: 40px 0px;

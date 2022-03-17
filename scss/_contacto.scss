@@ -1,6 +1,5 @@
 .main__contacto{
-    max-width: 1900px;
-    margin: auto;
+    @extend .container;
     padding-bottom: 30px;
     background-color: antiquewhite;
 
@@ -53,14 +52,12 @@
     }
     
     .boton{
-        width: 100%;
         background: #c38c6e;
         border: none;
-        padding: 12px;
         color: #ffffff;
-        margin: 16px 0;
-        font-size: 16px;
         transition: transform 0.3s;
+        border-radius: 4px;
+        @include boton(12px) ;
     }
     
     .boton:hover{
