@@ -21,24 +21,6 @@ $estilos:(
     texto: center,
 );
 
-$rrss: (
-    twitter: #00acee,
-
-    instagram: #cb2d8f,
-
-    tiktok: #f12a51,
-);
-
-@each $key, $color in $rrss {
-    .btn-#{$key} {
-        background-color: $color;
-        border: none;
-        padding: 12px;
-        margin: 0px 10px;
-        color: #fff;
-        }
-    }
-
 @mixin boton ($paddingLR) {
     padding: $paddingLR ;
     margin: 16px 0;

@@ -57,11 +57,6 @@ footer{
         font-family: 'Open Sans', sans-serif;
     }
     
-    .maps{
-        text-align: center;
-        /* BORRAR DESPUES*/
-    }
-    
     .footer__div--b{
         background-color: map-get($estilos, fondo);
         font-size:map-get($estilos,fuente);
