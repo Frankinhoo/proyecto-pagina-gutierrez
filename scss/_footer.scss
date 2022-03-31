@@ -1,12 +1,13 @@
 footer{
     @extend .container;
-    background-color: #666666;
+    background-color: #28292b;
     width: 100%;
+    color: #ffffff;
 
     .footer__section{
         display: flex;
-        justify-content: center;
-        background-color: #666666;
+        justify-content: space-around;
+        background-color: #28292b;
         width: 100%;
         max-width: 1900px;
         margin: auto;
@@ -17,7 +18,7 @@ footer{
     .footer__logo{
         display: block;
         padding: 15px 0;
-        height: 120px;
+        height: 150px;
     }
 
     .footer__p{
@@ -25,37 +26,44 @@ footer{
         color: #ffffff;
         font-family: 'Open Sans', sans-serif;
         max-width: 600px;
-        padding-top: 15px;
+        padding-top: 60px;
+        margin-bottom: 0px;
     }
     
-    .footer__div{
-        width:  400px;
-    }
 
     .footer__h3{
         padding-top: 15px;
-        text-decoration: underline;
-        font-size: 35px;
-        color: #ffffff;
+        font-size: 30px;
+        color: #777777;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
+    }
+
+    .contactenos__p{
+        display: inline-block;
+        padding-left: 10px;
+        color: #ffffff;
+        
     }
     
     .footer__div--a{
-        padding-top: 30px;
-        padding-bottom: 15px;
         display: flex;
-        flex-direction: column;
-        text-align: center;
+        flex-direction:column;
+        align-items: center;
+        
+    }
+
+    .rrss{
+        margin: 5px ;
+    }
+
+    .rrss:hover{
+        background-color: #494949;
+        border-radius: 100%;
+        cursor: pointer;
     }
     
-    .footer__a{
-        flex-direction: column;
-        text-decoration: none;
-        padding: 20px 0;
-        color: #ffffff;
-        font-family: 'Open Sans', sans-serif;
-    }
+    
     
     .footer__div--b{
         background-color: map-get($estilos, fondo);
@@ -65,7 +73,11 @@ footer{
         text-align:map-get($estilos,texto);
         font-family: 'Open Sans', sans-serif;
     }
-
+    
+    .footer__div--c{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
